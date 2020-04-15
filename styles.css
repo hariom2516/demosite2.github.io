@@ -1,0 +1,155 @@
+#title{
+  background-color: #ff4c68;
+
+}
+.container-fluid{
+  padding: 3% 15% 5.5%;
+  }
+
+
+h1
+{
+  margin-left: auto;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+h2{
+  font-family: "Montserrat";
+  color: #000;
+  font-size: 2.5rem;
+
+
+}
+h3{
+  font-family: "Montserrat";
+   font-size: 1.5rem;
+
+  }
+p{
+  color:#8f8f8f;
+
+}
+.navbar{
+  padding: 0 0 4.5rem ;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'ubuntu';
+  margin-left: auto;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight:400;
+}
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+
+
+}
+.download-button{
+  margin: 5% 3% 0 0;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.features-box{
+  text-align:center;
+  padding:2%;
+}
+.fas{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color:#ff4c68;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  text-decoration-color: #fff;
+
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom:3%;
+  text-align: center;
+}
+.press-img{
+  width:15%;
+  margin:20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-col{
+  padding: 3% 2%;
+}
+.testimonial-text{
+  color: #fff;
+}
+
+@media (max-width:1028px)
+{
+  .title-image{
+    position:static;
+    transform: rotate(0deg);
+    margin-top:20px;
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  padding:7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+
+}
+.cta-text{
+  font-style: "Montserrat";
+  font-weight: 800;
+  color: #fff;
+  font-size: 3rem;
+}
+
+#footer{
+  margin:80px;
+  background-color: #fff;
+  text-align: center;
+}
+.fab{
+  padding: 10px 10px;
+}
+.envelope{
+  color:black;
+  padding: 10px 10px;
+}
+.envelope:hover{
+  color:black;
+}
